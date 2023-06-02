@@ -5,3 +5,26 @@ Tutorial>>>e.g. tutorial on Installation Fusion
 *Explain the feature and process
 How to>>> e.g How to Design the robot, How to use FlashPrint
 *Title , Intro , Background Information
+
+
+Design part 
+AutoDesk Fusion360 
+Sliser: FlashPrint 
+Setting up the printer Creator 3
+Settings check and getting it ready for print
+
+For design We implemented Autodesk Fusion 360. tHE INSTALLATION IS pretty straight forward: 
+Follow this link for reference 
+
+For printing a solid model we need sliced that makes a solid model sliced layer by layer making it ready to print through the printer
+Here in this case we are using Cteator 3 as printer. 
+Just to note down: All the printing setting e.g. Setting platform and extruder temperature need to be set through the slicer 
+
+In terms of Getting the printer ready for print we need to make sure
+-Calibration is done 
+-Selection and management of extruder and fillament 
+-Printing settings are set as desired
+-The platform is clean to start printing
+
+When the printer is ready what we need to do is to get the solid model (stl, STEP, obj) imported into sliser (FlashPrint inthis case) and 
+get converted into .gx before transfering the same to the printer to print. 
