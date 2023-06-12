@@ -23,7 +23,7 @@ def setAngle(angle,pin):
 # Function to select target servo
 def servo1(setAngle):
     print('set to ', angle, ' deg')
-    setAngle(0)
+    setAngle(0,12)
     sleep(1)
 
 servo_num,angle=input('enter name of the servo and angle to rotate with space').split()
